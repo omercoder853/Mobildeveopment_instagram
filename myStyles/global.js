@@ -43,10 +43,9 @@ export const styles = StyleSheet.create({
     alignItems:'center',
     bottom:0,
     justifyContent:'space-evenly',
-    borderTopWidth:1,
-    borderTopColor:'#9be78269',
     width:'100%',
-    position:'absolute'
+    position:'absolute',
+    backgroundColor:'#ffffff'
   },
   header:{
     position:'absolute',
@@ -64,20 +63,21 @@ export const styles = StyleSheet.create({
     flexDirection:'column',
     justifyContent:'center',
     alignItems:'center',
+    marginRight:10
   },
+  storySection:{
+    marginTop:0,
+    padding:15,
+    height:120,
+    width:'100%'
+  },
+
   storyImage:{
     width:70,
     height:70,
     borderRadius:35,
+    borderWidth:1.5,
     borderColor:'red',
-  },
-  storySection:{
-    display:'flex',
-    flexDirection:'row',
-    justifyContent:'space-around',
-    height:100,
-    position:'relative',
-    width:'100%',
   },
   profileInfo:{
     display:'flex',
